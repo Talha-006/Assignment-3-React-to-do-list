@@ -1,0 +1,76 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.delcol{
+  background-color: red;
+}
+.savecol{
+  background-color: green;
+}
+.editcol{
+  background-color: rgb(56, 56, 195);
+}
+
+.clearbtn{
+  background-color: yellow;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.addbtn{
+  background-color: black;
+  color:white;
+}
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f1f1f1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0;
+  color: #333;
+}
